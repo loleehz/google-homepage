@@ -1,0 +1,174 @@
+body {
+    position: relative;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    width: 272px;
+    height: 92px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+#search {
+    padding-top: 30px;
+    position: relative;   
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 34px;
+}
+
+.searchbox {
+    height: 44px;
+    font-size: 13pt;
+    width: 550px;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    border: none;
+    padding-left: 15px;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    min-width: 100%;
+    
+    
+}
+
+#sbuttons {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+    
+}
+
+#language {
+    padding-top: 30px;
+    width: 261px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10pt;
+    height: 30px;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration-line: none;
+    color: black;
+    font-size: 10pt;
+}
+
+#navbar {
+    text-align: right;
+    padding: 5px;
+    word-spacing: 15px;
+}
+
+.align {
+    vertical-align: middle;
+}
+
+.hypertxt {
+    color:  #0000EE;
+}
+
+#search img {
+    position: relative;
+    left: 88%;
+    bottom: 100%;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+#footer1 {
+    position: absolute;
+    height: 40px;
+    background-color: #f2f2f2;
+    border-bottom: 2px;
+    width: 100%;
+    bottom: 0;
+    border: none;
+}
+
+#footer2 {
+    position: absolute;
+    height: 40px;
+    background-color: #f2f2f2;
+    width: 100%;
+    bottom: 40px;
+    box-shadow: 0px 0,5px 0,5px 0px rgba(0,0,0,0.16), 0 0 0 2px rgba(0,0,0,0.08);
+}
+
+#footer2 p {
+    padding-left: 20px;
+    text-align: left;
+    color: gray;
+    padding-top: -20px;
+}
+
+span {
+    position: relative;
+    top: 12px;
+    left: 20px;
+    padding-right: 15px;
+}
+
+#rfooter {
+    position: absolute;
+    right: 30px;
+    bottom: 22px;
+}
+
+.searchb {
+    width: 150px;
+    background-color: #f2f2f2;
+    color: gray;
+    font-weight: bold;
+    border: none;
+    display: inline;
+    padding: 11px 20px;
+    text-align: center;
+    margin-left: 45px;
+    box-sizing: border-box;
+}
+
+.luckyb {
+    width: 150px;
+    background-color: #f2f2f2;
+    color: gray;
+    font-weight: bold;
+    border: 1px solid transparent;
+    display: inline;
+    text-decoration: none;
+    padding: 11px 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
+
+.searchb:hover, .luckyb:hover {
+    border: 1px solid #dedede;
+    border-radius: 3px 3px 3px 3px;
+    color: black;
+}
+
+.searchbox:hover, .searchbox:active {
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.16), 0 0 0 2px rgba(0,0,0,0.08);
+}
+
+
+    
+
+
